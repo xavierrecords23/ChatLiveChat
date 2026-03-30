@@ -1,0 +1,45 @@
+
+button {
+  background-color: tan;
+  cursor: pointer;
+  font-family: 'Impact', 'Papyrus', fantasy;
+}
+#Mostrecentmessagedisplay{
+  
+  width:500px;
+  height:300px;
+  border-style:solid;
+    position: absolute;
+  bottom: 200px;
+  right: 200px;
+}
+
+
+#Themessageinput {
+  position: absolute;
+  bottom: 100px;
+  right: 450px;
+
+  width: 200px;
+  height: 80px;
+
+  font-family: 'Impact', 'Papyrus', fantasy;
+  font-size: 16px;
+
+  padding: 4px;            /* space inside textarea */
+  box-sizing: border-box;   
+  resize: none;           
+  text-align: left;         
+  vertical-align: top;      
+}
+
+/* Button positioning */
+#inputbutton {
+  width: 150px;
+  height: 40px;
+  position: absolute;
+  right: 300px;
+  bottom: 120px;
+
+  font-family: 'Impact', 'Papyrus', fantasy;
+}
